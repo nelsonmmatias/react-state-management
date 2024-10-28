@@ -1,0 +1,75 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete {
+  padding: 10px 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.hover-box {
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+  transition: background-color 0.3s ease;
+}
+
+.hover-box p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.submit-feedback p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+input[type="number"] {
+  width: 50%;
+}
+
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+}

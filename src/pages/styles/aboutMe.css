@@ -1,0 +1,30 @@
+/* AboutMe.css */
+.about-me {
+  padding: 2em;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.about-me-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5em;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 230px;
+  object-fit: cover;
+  margin-right: 2em;
+}
+
+.about-me-text {
+  max-width: 600px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.about-me-text p {
+  margin-bottom: 1em;
+}

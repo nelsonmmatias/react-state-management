@@ -1,0 +1,22 @@
+.playground {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e8f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  position: absolute;
+  background-color: crimson;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  left: -15px;
+  top: -15px;
+  border: 2px solid white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.05s ease;
+}

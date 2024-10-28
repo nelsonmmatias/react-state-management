@@ -1,0 +1,43 @@
+.code-container {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.code-block {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: "Courier New", Courier, monospace;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  position: relative;
+}
+
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.copy-button .copy-icon {
+  color: #f8f8f2;
+}
+
+.copy-button .copied-icon {
+  color: #4caf50;
+}
+
+.copy-button:hover .copy-icon {
+  color: #45a049;
+}
+
+.copy-button:hover .copied-icon {
+  color: #66bb6a;
+}
